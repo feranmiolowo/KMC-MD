@@ -1,5 +1,14 @@
 # KMC-MD
 An integrated Off-Lattice Kinetic Monte Carlo (KMC)-Molecular Dynamics (MD) Framework for modeling PVC dehydrochlorination process
+
+# Please note: 
+The code was run on a GeForce RTX 3090 using a 16-core GPU with the following software installed
+- GROMACS v. 2022.4 (https://www.gromacs.org/)
+- Python3 3.10.12 (https://www.python.org/downloads/release/python-31012/)
+- MDAnalysis package (https://www.mdanalysis.org/)
+
+Please check lines of KMC-MD/kmc-md/main.py file for the necessary Python packages to be installed.
+
 # Instructions for Running KMC-MD Simulation:
 This script was created for the execution of Kinetic Monte Carlo (KMC) coupled with Molecular Dynamics (MD) simulations, for studying the dehydrochlorination (DHC) process of PVC. 
 
